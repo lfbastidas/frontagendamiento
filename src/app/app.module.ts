@@ -9,6 +9,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { PagesComponent } from './pages/pages.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,13 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     SidebarComponent,
     FooterComponent,
     PagesComponent,
-    DashboardComponent
+    DashboardComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]

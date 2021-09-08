@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { MatModule } from '../shared/mat.module';
 
 
 
@@ -13,7 +14,8 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     ForgotPasswordComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatModule
   ]
 })
 export class AuthModule { }
