@@ -8,13 +8,17 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AuthModule } from './auth/auth.module';
+import { FullComponent } from './layout/full/full.component';
+import { ContentComponent } from './layout/content/content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    FullComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
