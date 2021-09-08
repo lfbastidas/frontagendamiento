@@ -7,9 +7,8 @@ import { SharedComponent } from './shared/shared.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { PagesComponent } from './pages/pages.component';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { AuthModule } from './auth/auth.module';
 
 @NgModule({
@@ -18,9 +17,7 @@ import { AuthModule } from './auth/auth.module';
     SharedComponent,
     NavbarComponent,
     SidebarComponent,
-    FooterComponent,
-    PagesComponent,
-    DashboardComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
